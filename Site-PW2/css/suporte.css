@@ -1,0 +1,152 @@
+body{
+    background-color:white;
+    color: white;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(247, 216, 216);
+}
+
+.titulo{
+    flex-direction: column;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+.titulo h1{
+    margin-left: 180px;
+    font-weight: 200;
+    color: black;
+}
+
+
+main{
+    border-radius: 10px;
+    background-color: #808080;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    justify-content: space-between;
+}
+
+
+
+.elemento-lista{
+  margin-left: 400px;
+}
+
+i{
+    font-size: 1.5rem;
+}
+
+main h1, p, button{
+    margin-left: 180px;
+
+}
+
+
+
+.bloco-meio{
+    font-size: 26px;
+    margin-left: 500px;
+    color: black;
+    font-family: JetBrains Mono NL Thin;
+}
+
+main h1{
+    font-family: JetBrains Mono ExtraBold;
+}
+
+main p{
+    font-family: JetBrains Mono ExtraBold;
+}
+
+a{
+    font-family:Bahnschrift SemiBold;
+    font-size: 18px;
+    color: black;
+}
+
+a:hover{
+    color: purple;
+    transition: 0.5s all;
+}
+
+
+#inscreva-se-btn{
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover{
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+
+.btn-2{
+    margin-left: 100px;
+    color: black;
+}
+
+.container-principal{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 135px;
+    align-items: center;
+   
+}
+input[type="text"], input[type="email"]{
+    
+    width: 350px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    height: 30px;
+   
+}
+
+textarea{
+
+    width: 365px;
+    border-radius: 10px;
+
+
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type="submit"]{
+
+    width: 375px;
+    padding: 10px;
+    background-color: #d0ced4;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 50px;
+}
+
+input[type="submit"]:hover{
+
+    background-color: #1e25f4 ;
+    transition: 0.5s all;
+
+}
+

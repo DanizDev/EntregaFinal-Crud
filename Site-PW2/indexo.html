@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="./css//index.css"> <!--Código que chama o "css" para o html-->
+
+</head>
+<body>   <!--Class= é um tipo de seletor do CSS, todos os elementos que receberem a classe desejada serao mudados, assim como a classe por "ID".-->   
+    
+    <div class="cabecario">
+        <header>
+            <a href="./html/PaginaPrincipal.html"><h1>INIT TATTOO</h1></a>
+            <ul>
+                 <li>Já tem uma conta?</li>
+                 <a href="./index.html"><button><li>Logue</li></button></a>
+             </ul>
+        </header>
+    </div>
+   
+
+    <div class="container-principal">
+        <div class="formulario">
+            <form id="form-cadastro" action="./php/UsuarioController.php" method="POST">
+
+                <h3> Cadastro </h3>
+                <hr>
+                <input type="text" name="usuarioFormulario" placeholder="Usuario:"/>
+                 <input type="email" name="emailFormulario" placeholder="Email:"/>
+                <input type="text" name="nomeFormulario" placeholder="Nome:"/>
+                <input type="password" name="senhaFormulario" placeholder="Senha:"/>
+                <!-- CRUD -->
+                <input type="submit" name="requisicao" value="Cadastrar Usuario"/>
+           
+
+            </form>
+        </div>
+    </div>   
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro de Produto</title>
+    <link rel="stylesheet" type="text/css" href="../css//index.css"> 
+</head>
+<body>
+    <div class="cabecario">
+        <header>
+            <a href="../html/PaginaPrincipal.html"><h1>INIT TATTOO</h1></a>
+            <ul>
+                 <li>Já tem uma conta?</li>
+                 <a href="../index.html"><button><li>Logue</li></button></a>
+             </ul>
+        </header>
+    </div>
+    <div class="container-principal">
+        <div class="formulario">
+            <form id="form-cadastro" method="POST" action="../php/UsuarioController.php">
+                <h3>Alteração de Dados</h3>
+                <input type="email" name="emailFormulario" placeholder="Email:"/>
+                <input type="text" name="nomeFormulario" placeholder="Nome:"/>
+                <input type="password" name="senhaFormulario" placeholder="Senha:"/>
+                <!-- CRUD -->
+                <input type="submit" name="requisicao" value="Atualizar"/>
+                <input type="submit" name="requisicao" value="Cadastrar"/>
+                <input type="submit" name="requisicao" value="Consultar"/>
+                <input type="submit" name="requisicao" value="Remover"/>
+
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>

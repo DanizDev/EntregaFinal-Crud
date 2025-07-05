@@ -1,0 +1,105 @@
+body{
+    background-color:white;
+    color: white;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(247, 216, 216);
+}
+
+.titulo{
+    flex-direction: column;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+.titulo h1{
+    margin-left: 180px;
+    font-weight: 200;
+    color: black;
+}
+
+
+main{
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    justify-content: space-between;
+}
+
+
+.elemento-lista{
+  margin-left: 400px;
+}
+
+i{
+    font-size: 1.5rem;
+}
+
+main h1, p, button{
+    margin-left: 180px;
+
+}
+
+main h1{
+    font-family: JetBrains Mono ExtraBold;
+}
+
+main p{
+    font-family: JetBrains Mono ExtraBold;
+}
+
+a{
+    font-family:Bahnschrift SemiBold;
+    font-size: 18px;
+    color: black;
+}
+
+a:hover{
+    color: purple;
+    transition: 0.5s all;
+}
+
+#inscreva-se-btn{
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover{
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+main h1{
+    margin-top: 120px;
+}
+
+.btn-2{
+    margin-left: 100px;
+    color: black;
+}
+
+img{
+
+    display: inline-block;
+    height: 500px;
+    margin: 79px;
+    border-radius: 10px;
+   background-color: rgb(246, 230, 230);
+
+
+}
+
+
+
